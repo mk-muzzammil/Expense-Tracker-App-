@@ -61,7 +61,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-- [Your Name](https://github.com/mk-muzzammil)
+- [Mk-Muzzammil](https://github.com/mk-muzzammil)
 
 ---
 Note: Replace the placeholders (e.g., `your-username`, `your-name`, `expense-tracker-app`, `your-link`, etc.) with the appropriate values specific to your project.

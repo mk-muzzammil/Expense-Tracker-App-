@@ -3,43 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Generator|App</title>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+  <title>Expense Tracker |App</title>
+
   <link rel="stylesheet" href="style.css">
+
   <script src="./index.js" defer></script>
 </head>
 <body>
-  <div class="backgroungContainer">
 
-    <div class="cardBoxContainer">
+  <div class="mainContainer">
+    <div class="cardBox">
+      <div class="uppercardContainer">
+        <h1 class="primary-Heading">Expense Tracker </h1>
 
-      <div class="scoreDiv">
-        <h1 class="primary-heading" id="mainHeading">Score -> <span id="score">0</span></h1>
+        <div class="earningStatus">
+          <h2 class="secondary-Heading" > $0 </h2>
+          <h3 class="thirdary-Heading" >Your balanace</h3>
+        </div>
+      </div>
+
+      <div class="transectionSection">
+        <h3 class="thirdary-Heading" >Transections </h3>
+        <hr>
+
+        <div class="transections">
+
+           
+
+            
+            
+            
+
+        </div>
+
 
       </div>
 
-      <form onsubmit="verifyAnswer(event)" class="inputForm">
-        <h2 class="questionText">
-          Q. What is 7 multiply by 8 ?
-        </h2>
-        <input required type="number" name="answer" id="numberInput" min="0" placeholder="Enter Your Answer...">
+      <div class="secondaryAddTransectionsBox">
+        <div class="contentContainer">
 
-        <button type="submit">Submit</button>
+          <h2 class="secondary-Heading addTransectionHeading ">Add Transections </h2>
 
-      </form>
+
+          <form  class="MainForm">
+            <div class="inputContainer">
+              <div class="InputDiv TextInputDiv">
+                <label for="TextInput" class="label" id="textLabel">Text</label>
+                <input required  type="text" 
+                id="TextInput"
+                name="text" placeholder="Enter Description...">
+    
+              </div>
+  
+              <div class="InputDiv AmountInputDiv">
+                <label for="NumInput" 
+                class="label" id="AmountLabel">Amount</label>
+                <input required type="number"
+                min="0" 
+                id="NumInput"
+                name="amount" placeholder="Enter Amount...">
+  
+              </div>
+
+            </div>
+
+            <div class="buttonsContainer">
+              <div class="buttonDiv earningButtonDiv">
+                <button type="submit" id="earnButton">$1200 <span class="earningSpan">Earnings</span></button>
+              
+              </div>
+
+              <div class="buttonDiv ExpenseButtonDiv">
+                <button type="submit" id="expenseButton"  >$0 <span class="ExpenseSpan">Expense</span></button>
+              
+              </div>
+
+            
+            
+            
+            
+            
+          </form>
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      
+
 
 
     </div>
 
-
-
-
-
-
-
-
   </div>
+
+
+
+
+
+  
+
+
+
   
 </body>
 </html>
